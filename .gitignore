@@ -1,0 +1,16 @@
+node_modules/
+.pnpm-store/
+package-lock.json
+*.log
+
+# Local validation files and retired character experiments
+qa*.cjs
+qa*.json
+qa*.png
+*-final.png
+reference-face.png
+character.js
+enhance.cjs
+refine.cjs
+shop-*.png
+!shop-overview.png

@@ -1,0 +1,31 @@
+月灯り · 雨夜便利店
+
+打开 rainy-night-konbini.html 即可离线游玩。无需联网或安装。
+最新版只保留店旁原图亚克力立牌与可控小圆球；已取消三维人物和换装。
+
+左键拖拽：旋转。右键拖拽：平移。滚轮：缩放。
+触屏：单指旋转、双指缩放平移。
+
+1：第一人称。拖拽转动视线，Q/E也可转向。
+2：街角全景。
+3（或 C）：店内剖视观察，自动收起屋顶。
+R：全景下收起 / 恢复屋顶。
+0：恢复小球位置和初始视角。
+
+WASD / 方向键：相对视线移动小球。
+Shift + 移动：加速。
+空格：小幅跳动。
+小球可穿过自动门进入或离开便利店，货架和墙壁设有碰撞限制。
+
+画面没有按钮、菜单或操作浮层。所有引擎、贴图和代码均内嵌在单个 HTML 中。
+立牌使用用户提供的同款官方原图，保留完整绘画，无三维人物拼接。
+参考：https://ao-buta.com/tv/assets/img/chara/pc/02/img_chara_main-front.png
+Three.js r170 / MIT，许可注释已包含在 HTML 中。
+
+质感更新：积水反射分区与柔化、低强度灯光光晕、细微金属刷纹、釉面高光、玻璃反光、圆润边角。曝光与光晕已限制，保留店内包装和路面纹理。
+渲染思路参考（独立适配实现，没有导入仓库模型资产）：
+https://github.com/ektogamat/threejs-conference/blob/main/src/world/ground/createGround.js
+https://github.com/ektogamat/threejs-conference/blob/main/src/post/postprocessing.js
+https://github.com/ZaneAtega/Three-js-Anime-Shader/blob/main/shaders/fragmentShader.glsl
+
+几何精修：圆肩饮料瓶、齿纹瓶盖、卷边罐、鼓起封口袋与贴合袋面的标签；货架分隔支架、冷柜胶条、冰柜玻璃盖及铰链；贩卖机投币与取货构件、空调风扇护网、屋顶接缝与螺栓。增加柔和接触阴影、独立铺砖、圆润边缘，并修正门槛、地垫和自行车的落地关系。
