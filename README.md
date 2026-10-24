@@ -4,6 +4,12 @@
 
 ![场景预览](shop-overview.png)
 
+## 在线打开
+
+[直接进入雨夜便利店场景](https://2749111465lin-hue.github.io/yindaomayi/)
+
+网站首页与离线单文件版本相同。GitHub Pages 从当前分支根目录发布，后续推送更新会自动重新部署。
+
 ## 打开场景
 
 下载 [`rainy-night-konbini.html`](rainy-night-konbini.html)，双击后用现代桌面浏览器打开。引擎、代码和贴图都已内嵌，运行无需联网或安装依赖。
@@ -31,7 +37,7 @@ npm install
 npm run build
 ```
 
-构建会生成独立的 `rainy-night-konbini.html`。主要源码为 `main.js`，店内、材质、灯光和店外细节分别位于 `interior.js`、`materials.js`、`look.js`、`exterior-detail.js`；`standee.js` 使用官方插画创建平面立牌。
+构建会同时生成独立的 `rainy-night-konbini.html` 与 GitHub Pages 首页 `index.html`。主要源码为 `main.js`，店内、材质、灯光和店外细节分别位于 `interior.js`、`materials.js`、`look.js`、`exterior-detail.js`；`standee.js` 使用官方插画创建平面立牌。
 
 依赖版本固定为 Three.js 0.170.0 与 esbuild 0.25.10。也可使用随仓库提供的 pnpm 锁文件安装依赖。
 
